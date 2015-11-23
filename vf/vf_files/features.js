@@ -1,0 +1,2 @@
+/* build 1-6-0Tue Nov 17 2015 15:55:46 GMT+0100 (Central European Standard Time)*/
+!function(a){for(var b,c=function(){},d=["assert","clear","count","debug","dir","dirxml","error","exception","group","groupCollapsed","groupEnd","info","log","markTimeline","profile","profileEnd","table","time","timeEnd","timeStamp","trace","warn"],e=d.length,f=a.console=a.console||{};e--;)b=d[e],f[b]||(f[b]=c)}(window),function(a){var b=a.getElementsByTagName("html")[0];b.className=b.className.replace(/\bno-js\b/,"js")}(document);
