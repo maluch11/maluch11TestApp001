@@ -205,8 +205,8 @@
 
     .r-fill {
       fill: url("#p-circles");
-      -webkit-transform-origin: 300px 150px;
-      transform-origin: 300px 150px;
+      -webkit-transform-origin: 1000px 450px;
+      transform-origin: 1000px 450px;
       -webkit-animation: rotate 30s infinite linear;
       animation: rotate 30s infinite linear; }
 
@@ -247,8 +247,8 @@
       font: 800 14.5em/1  'Open Sans', Impact; }
 
     svg {
-      width: 50%;
-      margin: 0 auto 50px;
+      width: 80%;
+      margin: 0 auto;
       display: block;
       text-transform: uppercase; }
 
@@ -267,24 +267,24 @@
       <header class="codrops-header">
       </header>
       <div class="content" style="padding-top: 10%;">
-        <svg viewBox="0 0 1400 400">
+        <svg viewBox="0 0 3600 400">
 
             <!-- Symbol with text -->
             <symbol id="s-text">
-                <text text-anchor="middle" x="50%" y="50%" dy=".35em" class="text--line">
+                <text text-anchor="middle" x="50%" y="50%" dy=".60em" class="text--line">
                     Hi Oliver!
                 </text>
             </symbol>
 
             <!-- Clippath  with text -->
             <clippath id="cp-text">
-                <text text-anchor="middle" x="50%" y="50%" dy=".35em" class="text--line">
+                <text text-anchor="middle" x="50%" y="50%" dy=".60em" class="text--line">
                     Hi Oliver!
                 </text>
             </clippath>
 
             <!-- Pattern -->
-            <pattern id="p-circles" width="40" height="40" viewBox="0 0 40 40" patternUnits="userSpaceOnUse">
+            <pattern id="p-circles" width="50" height="50" viewBox="0 0 40 40" patternUnits="userSpaceOnUse">
 
                 <circle r="12" cx="20" cy="20" class="c-ring"></circle>
                 <circle r="5" cx="20" cy="20" class="c-ring c-ring--fill"></circle>
@@ -306,7 +306,7 @@
 
             <!-- Group with clippath and with patterned content -->
             <g clip-path="url(#cp-text)">
-                <circle r="100%" cx="300" cy="150" class="r-fill"></circle>
+                <circle r="100%" cx="800" cy="300" class="r-fill"></circle>
             </g>
 
             <!-- Copy of text for stroke -->
